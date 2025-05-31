@@ -12,5 +12,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <description>This repository is the domain modular part</description>
 
+    <properties>
+        <java.version>21</java.version>
+    </properties>
+
+
 
 </project>

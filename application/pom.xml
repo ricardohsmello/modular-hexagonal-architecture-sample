@@ -12,4 +12,13 @@
     <version>0.0.1-SNAPSHOT</version>
     <description>This repository is the application modular part</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>br.com.ricas</groupId>
+            <artifactId>my-modular-domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
 </project>
