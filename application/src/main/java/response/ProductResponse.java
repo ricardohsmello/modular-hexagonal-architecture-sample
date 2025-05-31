@@ -1,6 +1,7 @@
-package br.com.ricas.model;
+package response;
 
-public record Product(
+
+public record ProductResponse(
         String id,
         String name,
         String description,
