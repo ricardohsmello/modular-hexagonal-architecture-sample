@@ -10,7 +10,10 @@
     </parent>
     <artifactId>my-modular-application</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <description>This repository is the application modular part</description>
+    <description>
+        This module defines use cases and orchestrates domain logic by leveraging the interfaces (ports) from the domain module.
+        - it depends on Domain module
+    </description>
 
     <dependencies>
         <dependency>
