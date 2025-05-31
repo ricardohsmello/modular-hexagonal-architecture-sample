@@ -1,4 +1,4 @@
-package entity;
+package br.com.ricas.entity;
 
 import br.com.ricas.model.Product;
 import org.springframework.data.mongodb.core.mapping.Document;
