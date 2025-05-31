@@ -15,3 +15,41 @@ It separates concerns by using three main modules:
  **Application layer**: Orchestrates use cases and uses domain interfaces.  
  **Infrastructure layer**: Wires up frameworks (Spring, DB, APIs) and implements adapters.
 
+## Domain module
+
+This module contains **only pure domain logic**. It has no external dependencies and is completely agnostic to any frameworks or infrastructure concerns.
+
+**What’s inside?**
+- Domain models (Entities)
+- Domain interfaces (ports)
+
+**What’s not inside?**
+- No Spring annotations
+- No framework dependencies
+- No infrastructure-related code
+
+## Application module
+
+This module defines **use cases** and orchestrates domain logic by leveraging the interfaces (ports) from the domain module.  
+It **coordinates** domain interactions and ensures business rules are applied consistently.
+
+**What’s inside?**
+- Application services (e.g., `CreateProductService`, `UpdateProductService`)
+- Use case orchestration
+
+**What’s not inside?**
+- No direct framework dependencies
+- No infrastructure code
+
+## Infrastructure module
+
+This module contains **adapters** and all the framework-related code, like Spring Boot configuration, REST APIs, database access, and external integrations.
+
+**What’s inside?**
+- Spring Boot application starter
+- Adapters implementing domain interfaces (e.g., database repositories)
+- Configuration and integration with external systems
+
+**What’s not inside?**
+- No business logic or domain-specific rules
+- No pure application logic (delegates to `application` services)
