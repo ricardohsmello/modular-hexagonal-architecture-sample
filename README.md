@@ -53,3 +53,15 @@ This module contains **adapters** and all the framework-related code, like Sprin
 **What’s not inside?**
 - No business logic or domain-specific rules
 - No pure application logic (delegates to `application` services)
+
+ 
+# Running the Application
+
+To run the application and connect it to MongoDB Atlas, use the following commands:
+
+### On macOS/Linux:
+
+```bash
+export MONGODB_URI="<YOUR_CONNECTION_STRING>"
+cd infrastructure
+mvn spring-boot:run

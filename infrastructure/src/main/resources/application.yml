@@ -2,3 +2,4 @@
   data:
     mongodb:
       uri: ${MONGODB_URI}
+      database: my_database

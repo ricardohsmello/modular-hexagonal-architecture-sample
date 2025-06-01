@@ -5,6 +5,4 @@ public record Product(
         String name,
         String description,
         double price
-) {
-
-}
+) {}

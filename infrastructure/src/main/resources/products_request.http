@@ -1,0 +1,13 @@
+### GET
+GET http://localhost:8080/products?page=0&sizePerPage=10&sortField=id&sortDirection=ASC
+
+### POST
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "Product A",
+  "description": "This is a description on product A",
+  "price": 450.0
+}
+
