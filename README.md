@@ -9,6 +9,8 @@ It separates concerns by using three main modules:
 | **application**    | domain                | Application services orchestrate domain logic.                              |
 | **infrastructure** | application, domain   | Contains adapters and framework code (Spring), wires up everything.        |
 
+![Layers separation Image](./images/layers.PNG)
+
 ## Key Principles
 
  **Domain layer**: Pure business logic. No knowledge of frameworks like Spring.  
