@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="br.com.ricas.http://maven.apache.org/POM/4.0.0" xmlns:xsi="br.com.ricas.http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="br.com.ricas.http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>br.com.ricas</groupId>
         <artifactId>my-modular-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>my-modular-application</artifactId>
     <version>0.0.1-SNAPSHOT</version>
