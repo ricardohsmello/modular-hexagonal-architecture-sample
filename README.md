@@ -1,5 +1,9 @@
 # Modular Hexagonal Architecture Project
 
+This project refers to my latest article:
+
+- [Clean and Modular Java: A Hexagonal Architecture Approach](https://medium.com/@ricardohsmello/clean-and-modular-java-a-hexagonal-architecture-approach-8c4c7b9327db)
+
 This project demonstrates a **Hexagonal (Ports and Adapters)** architecture in a modular Maven setup.  
 It separates concerns by using three main modules:
 
